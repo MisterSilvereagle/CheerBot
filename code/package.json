@@ -1,0 +1,14 @@
+{
+  "name": "twitch-bot",
+  "version": "1.0.0",
+  "description": "the Twitch-Bot by MSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MSE",
+  "license": "ISC",
+  "dependencies": {
+    "tmi.js": "^1.5.0"
+  }
+}
