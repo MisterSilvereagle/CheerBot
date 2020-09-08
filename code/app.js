@@ -19,7 +19,14 @@ var client = new tmi.client(options);
 client.connect();
 
 client.on('chat', function(channel, userstate, message, self) { 
-  if(message == "!discord"){ 
-    client.say("LadyGoldbird", "/me @"+userstate.username+" | Hier geht's zum LadyGoldbird-Discord-Server: https://discord.gg/G2EdA7a");
+  if(message.startsWith("!cheer")){ 
+  	var input01 = message.split(' ')[1];
+    client.say("thejocraft_live", "cheer" + input01);
+  }
+});
+
+client.on('chat', function(channel, userstate, message, self) { 
+  if(message == "!mithelfen"){ 
+    client.say("thejocraft_live", " @"+userstate.username+" | Du willst beim Projekt mithelfen? Sieh' dich unter mistersilvereagle[punkt]github[punkt]io[slash]cheerbot um!");
   }
 });

@@ -9,6 +9,21 @@
   "author": "MSE",
   "license": "ISC",
   "dependencies": {
+    "qs": "^6.9.4",
     "tmi.js": "^1.5.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterSilvereagle/CheerBot.git"
+  },
+  "keywords": [
+    "CheerBot",
+    "Twitch",
+    "Bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/MisterSilvereagle/CheerBot/issues"
+  },
+  "homepage": "https://github.com/MisterSilvereagle/CheerBot#readme"
 }
