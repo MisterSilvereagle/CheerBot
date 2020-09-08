@@ -20,7 +20,7 @@ client.connect();
 
 client.on('chat', function(channel, userstate, message, self) { 
   if(message.startsWith("!cheer")){ 
-  	var input01 = message.split(' ')[1];
+    var input01 = message.split(' ')[1];
     client.say("thejocraft_live", "cheer" + input01);
   }
 });
